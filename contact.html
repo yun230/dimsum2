@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DimSum - Contact Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/Dimsum.png">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12"> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">DimSum Restaurant</h1>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
+								<!-- <li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li> -->
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link active">Contact</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Contact Us</h2>
+			</header>
+
+					<div class="col-md-6">
+						<div class="tm-address-box">
+							
+							<address>
+								2213 Route 88 Brick, NJ 08724<br>
+								Monday-Saturday: 11am - 10pm<br>
+								Sunday: 12pm - 10pm
+							</address>
+							<a href="tel:080-090-0110" class="tm-contact-link">
+								<i class="fas fa-phone tm-contact-icon"></i>732-899-8888 , 732-899-8833
+							</a>
+							<!-- <a href="mailto:info@company.co" class="tm-contact-link">
+								<i class="fas fa-envelope tm-contact-icon"></i>info@company.co
+							</a> -->
+							<!-- <div class="tm-contact-social">
+								<a href="https://fb.com/templatemo" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+								<a href="#" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+								<a href="#" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+            
+<!-- How to change your own map point
+	1. Go to Google Maps
+	2. Click on your location point
+	3. Click "Share" and choose "Embed map" tab
+	4. Copy only URL and paste it within the src="" field below
+-->
+			<div class="tm-container-inner-2 tm-map-section">
+				<div class="row">
+					<div class="col-12">
+						<div class="tm-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12211.60327218311!2d-74.0944126!3d40.0776244!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6fc8e840191056d!2sDim%20Sum%20Restaurant!5e0!3m2!1sen!2sus!4v1621051858818!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tm-container-inner-2 tm-info-section">
+				<div class="row">
+		
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
